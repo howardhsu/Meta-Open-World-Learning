@@ -31,10 +31,6 @@ bash run_batch.sh
 ```
 The results are saved in eval.json under each run's folder under different parameter setting.
 
-```
-python run_eval.py 5 10
-```
-
 ## Citation:
 ```
 @inproceedings{xu2019open,
