@@ -3,6 +3,12 @@ code for our TheWebConf (WWW 2019) paper titled "Open World Learning for Product
 
 this repository is under development.
 
+## Environment
+this project is tested on Keras 2.2.2 with Tensorflow 1.4.0 but it should generally work for other versions.
+
+## Running Script
+
+
 ## Citation:
 ```
 @inproceedings{xu2019open,
