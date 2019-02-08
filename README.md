@@ -4,10 +4,36 @@ code for our TheWebConf (WWW 2019) paper titled "Open World Learning for Product
 this repository is under development.
 
 ## Environment
-this project is tested on Keras 2.2.2 with Tensorflow 1.4.0 but it should generally work for other versions.
+this project is tested on Python 2.7 + Keras 2.2.2 with Tensorflow 1.4.0 on Ubuntu 16.04, but it should generally work for other versions.
+
+## Data
+Download the preprocessed data from here. Save it to amazon/data .
+```
+cd amazon/data/
+tar -zxf data.tar.gz
+```
+This leads to the meta training classes in train1_npz and 3 sets (25, 50, 75 incrementally) of meta testing classes (including both training/testing data for meta testing classes).
+
+We only release the preprocessed data at this stage (although some preprocessing code is available under amazon folder).
+
 
 ## Running Script
+```
+cd script
+```
+Single run with k=5 n=9 (ncls=9+1=10, with 1 positive class and 9 negative classes).
+```
+bash run.sh 5 10
+```
+Run all settings of k and n with 10 runs (note this will cause a lot of time so it's better to distribute tasks to different GPUs)
+```
+bash run_batch.sh
+```
+The results are saved in eval.json under each run's folder under different parameter setting.
 
+```
+python run_eval.py 5 10
+```
 
 ## Citation:
 ```
@@ -21,6 +47,4 @@ this project is tested on Keras 2.2.2 with Tensorflow 1.4.0 but it should genera
 ```
 
 ## TODO:
-- [ ] check difference with original code base.
-- [ ] upload meta data.
-- [ ] complete the readme file.
+- [ ] preprocessing code and data.
