@@ -7,7 +7,7 @@ this repository is under development.
 this project is tested on Python 2.7 + Keras 2.2.2 with Tensorflow 1.4.0 on Ubuntu 16.04, but it should generally work for other versions.
 
 ## Data
-Download the preprocessed data from here. Save it to amazon/data .
+Download the preprocessed data from here[https://drive.google.com/file/d/1l0JR7u6FX4Av4Zf4mAFhQfBlbMFbq_1b/view?usp=sharing]. Save it to amazon/data .
 ```
 cd amazon/data/
 tar -zxf data.tar.gz
