@@ -43,4 +43,4 @@ The results are saved in eval.json under each run's folder under different param
 ```
 
 ## TODO:
-- [ ] preprocessing code and data.
+- [ ] preprocessing code and meta data.
