@@ -1,7 +1,13 @@
 # Meta-Open-World-Learning
-code for our TheWebConf (WWW 2019) paper titled "Open World Learning for Product Classification"
+code for our TheWebConf (WWW 2019) paper titled "Open World Learning for Product Classification".
+This repository is under development.
 
-this repository is under development.
+## Problem to Solve
+Classic supervised learning assumes that the classes seen in testing must have appeared in training. However, this assumption is often violated in real-world applications when new topics emerge constantly or in e-commerce new categories of products appear daily.
+A model working in such an open environment must be able to 
+(1) reject examples from unseen classes (not appeared during training) and 
+(2) incrementally learn the new/unseen classes to expand the existing model. 
+We call this problem open-world learning (OWL).
 
 ## Environment
 this project is tested on Python 2.7 + Keras 2.2.2 with Tensorflow 1.4.0 on Ubuntu 16.04, but it should generally work for other versions.
