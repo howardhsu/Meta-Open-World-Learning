@@ -4,9 +4,12 @@ This repository is under development.
 
 ## Problem to Solve
 Classic supervised learning assumes that the classes seen in testing must have appeared in training. However, this assumption is often violated in real-world applications when new topics emerge constantly or in e-commerce new categories of products appear daily.
-A model working in such an open environment must be able to 
+A model working in such an open environment must be able to
+
 (1) reject examples from unseen classes (not appeared during training) and 
+
 (2) incrementally learn the new/unseen classes to expand the existing model. 
+
 We call this problem open-world learning (OWL).
 
 ## Environment
