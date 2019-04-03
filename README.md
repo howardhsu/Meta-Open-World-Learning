@@ -1,6 +1,5 @@
 # Meta-Open-World-Learning
 code for our TheWebConf (WWW 2019) paper titled "Open World Learning for Product Classification".
-This repository is under development.
 
 ## Problem to Solve
 Classic supervised learning assumes that the classes seen in testing must have appeared in training. However, this assumption is often violated in real-world applications when new topics emerge constantly or in e-commerce new categories of products appear daily.
