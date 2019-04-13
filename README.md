@@ -9,7 +9,7 @@ A model working in such an open environment must be able to
 
 (2) incrementally learn the new/unseen classes to expand the existing model. 
 
-We call this problem open-world learning (OWL).
+We call this problem open-world learning (OWL). We human live in a dynamic world. Thus it doesn't make sense that a model is trained then deployed then never changed further.
 
 ## Environment
 this project is tested on Python 2.7 + Keras 2.2.2 with Tensorflow 1.4.0 on Ubuntu 16.04, but it should generally work for other versions.
