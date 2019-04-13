@@ -1,5 +1,6 @@
 # Meta-Open-World-Learning
-code for our TheWebConf (WWW 2019) paper titled "[Open World Learning for Product Classification](https://arxiv.org/abs/1809.06004)".
+code for our TheWebConf (WWW 2019) paper titled "[Open-world Learning and Application to Product Classification
+](https://arxiv.org/abs/1809.06004)".
 
 ## Background
 We human live in a dynamic world, which keeps evolving. Thus it doesn't make sense that in 99% cases a model is trained and deployed then never changed further. Since the majority of ML problems are on classification, we narrow down to a classification task first. Can a classifier work on a dynamic set, where the task keeps changing as humans keep change their mind ? 
@@ -45,7 +46,7 @@ The results are saved in eval.json under each run's folder under different param
 ## Citation:
 ```
 @inproceedings{xu2019open,
-  title={Open World Learning for Product Classification},
+  title={Open-world Learning and Application to Product Classification},
   author={Xu, Hu and Liu, Bing, Shu, Lei and Yu, P.},
   booktitle={Proceedings of the 2019 World Wide Web Conference on World Wide Web},
   year={2019},
