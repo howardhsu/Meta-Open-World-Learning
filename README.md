@@ -1,8 +1,9 @@
 # Meta-Open-World-Learning
 code for our TheWebConf (WWW 2019) paper titled "[Open-world Learning and Application to Product Classification](https://arxiv.org/abs/1809.06004)".
 
-## Background
-We human live in a dynamic world, which keeps evolving. Thus it doesn't make sense that in 99% cases a model is trained and deployed then never changed further. Since the majority of ML problems are on classification, we narrow down to a classification task first. Can a classifier work on a dynamic set, where the task keeps changing as humans keep change their mind ? 
+Checkou this [article](https://howardhsu.github.io/article/owl/) (or [this](https://howardhsu.github.io/article/overview/) ) for related background.
+
+*** Feedbacks are welcomed to improve this repository ***
 
 ## Problem to Solve
 Classic supervised learning assumes that the classes seen in testing must have appeared in training. However, this assumption is often violated in real-world applications when new topics emerge constantly or in e-commerce new categories of products appear daily.
