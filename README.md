@@ -1,7 +1,7 @@
 # Meta-Open-World-Learning
 code for our TheWebConf (WWW 2019) paper titled "[Open-world Learning and Application to Product Classification](https://arxiv.org/abs/1809.06004)".
 
-Checkou this [article](https://howardhsu.github.io/article/owl/) (or [this](https://howardhsu.github.io/article/overview/) ) for related background.
+Checkout this [article](https://howardhsu.github.io/article/owl/) (or [this](https://howardhsu.github.io/article/overview/) ) for related background.
 
 *** Feedbacks are welcomed to improve this repository ***
 
